@@ -1,0 +1,25 @@
+{
+  "run_id": "0e76307216904c6ebf1067c1466e2943",
+  "created_at_utc": "2026-10-19T06:44:31.745349+00:00",
+  "demo": true,
+  "mode": "weekly",
+  "start": "2026-08-03",
+  "end": "2026-08-09",
+  "status": "расхождение",
+  "rule_version": "demo-v1",
+  "sources": [
+    {
+      "source": "one_c",
+      "complete": true,
+      "rows": 7,
+      "version": "demo-v1"
+    },
+    {
+      "source": "cube",
+      "complete": true,
+      "rows": 7,
+      "version": "demo-v1"
+    }
+  ],
+  "comparisons": 7
+}

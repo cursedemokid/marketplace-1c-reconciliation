@@ -1,0 +1,144 @@
+{
+  "version": "draft-v2",
+  "approved": false,
+  "executable": false,
+  "notice": "Документальный реестр. Код его пока не загружает. Нельзя применять к реальным данным до утверждения.",
+  "daily": {
+    "cube_metric": "Оплата от WB (Заливка)",
+    "wb_metric": "Итого к оплате",
+    "wb_api_field": null,
+    "revision_policy": null,
+    "approved": false
+  },
+  "weekly": [
+    {
+      "id": "units",
+      "one_c_name": "Ед. хранения",
+      "cube_name": "WB реал,ШТ",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "gross",
+      "one_c_name": "С НДС",
+      "cube_name": "WB реализ,Итого",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "payment",
+      "one_c_name": "Сумма заливки",
+      "cube_name": "Итого продажи руб_",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "commission",
+      "one_c_name": "Ретро-бонус",
+      "cube_name": "Комиссия (полка)",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "logistics",
+      "one_c_name": "Логистический бонус",
+      "cube_name": "Логистика Итого",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "penalties",
+      "one_c_name": "Санкции",
+      "cube_name": "Штрафы",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    },
+    {
+      "id": "acquiring",
+      "one_c_name": "Эквайринг",
+      "cube_name": "Возмещение эквайринга",
+      "one_c_field": null,
+      "cube_field": null,
+      "unit": null,
+      "approved": false
+    }
+  ],
+  "monthly": [
+    {
+      "id": "pvz",
+      "cube_working_name": "Возмещение за выдачу и возврат товаров на ПВЗ",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "transport",
+      "cube_working_name": "Возмещение издержек",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "penalties",
+      "cube_working_name": "Штрафы",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "agent_fee",
+      "cube_working_name": "Вознаграждение WB без НДС + НДС с вознаграждения WB",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "promotion",
+      "cube_working_name": "Оказание услуг «WB Продвижение»",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "media",
+      "cube_working_name": "Оказание услуг «WB Медиа»",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    },
+    {
+      "id": "acquiring",
+      "cube_working_name": "Возмещение эквайринга",
+      "document_selector": null,
+      "cube_fields": null,
+      "one_c_fields": null,
+      "approved": false
+    }
+  ],
+  "common": {
+    "difference_sign": null,
+    "rounding": null,
+    "vat_policy": null,
+    "week_start": null,
+    "timezone": null,
+    "dimensions": null
+  }
+}

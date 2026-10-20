@@ -1,0 +1,31 @@
+{
+  "run_id": "166ae3a67910464ab35a0542f8687746",
+  "created_at_utc": "2026-10-19T06:44:31.812651+00:00",
+  "demo": true,
+  "mode": "monthly",
+  "start": "2026-08-01",
+  "end": "2026-08-31",
+  "status": "расхождение",
+  "rule_version": "demo-v1",
+  "sources": [
+    {
+      "source": "wb_documents",
+      "complete": true,
+      "rows": 7,
+      "version": "demo-v1"
+    },
+    {
+      "source": "cube",
+      "complete": true,
+      "rows": 7,
+      "version": "demo-v1"
+    },
+    {
+      "source": "one_c",
+      "complete": true,
+      "rows": 7,
+      "version": "demo-v1"
+    }
+  ],
+  "comparisons": 14
+}
